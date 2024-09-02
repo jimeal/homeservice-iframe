@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      aspect-ratio: 9 / 16;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      background-color: #d5fdff;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+    }
+    @media (min-width: 760px)  {
+      body {
+        aspect-ratio: 3 / 4;
+      }
+    }
+    @media (min-width:380px) and (max-width:560px) {
+      body {
+        aspect-ratio: 9 / 19.5
+      }
+    }
+    @media (max-width: 310px) {
+      body {
+        aspect-ratio: 9 / 21;
+      }
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://jimeal.github.io/homeService/" frameborder="0" width="360" height="640" scrolling="auto"></iframe>
+</body>
+</html>
